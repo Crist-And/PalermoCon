@@ -43,6 +43,7 @@ npm run dev
 yarn dev
 ```
 ## Estructura
+```
 src/
 ├── components/
 │   ├── About.jsx           # Sección "Nosotros" y servicios
@@ -54,7 +55,7 @@ src/
 ├── styles/
 │   └── index.css           # Archivo de configuración de Tailwind
 └── App.jsx                 # Componente principal que ensambla todas las secciones
-
+```
 ## Configuracion del Formulario de contacto
 ✉️ Configuración del Formulario de Contacto
 
