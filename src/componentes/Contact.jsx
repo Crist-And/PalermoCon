@@ -22,7 +22,7 @@ const Contact = () => {
     if (statusMessage && statusMessage.type === 'success') {
       const timer = setTimeout(() => {
         setStatusMessage(null);
-      }, 5000); // 5000 milisegundos = 5 segundos
+      }, 3000); // 5000 milisegundos = 5 segundos
 
       // Función de limpieza para evitar fugas de memoria si el componente se desmonta
       return () => clearTimeout(timer);
