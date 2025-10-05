@@ -80,16 +80,16 @@ const NavBar = () => {
   ];
 
   return (
-    <nav
-      // CLAVE: Cambiado de bottom-0 a top-0, y eliminado md:top-0 redundante
-      className="fixed bottom-0 left-0 right-0 z-50 p-3 shadow-2xl backdrop-blur-sm
-           md:top-0 md:bottom-auto md:w-full md:flex md:justify-center md:items-center
-           transition-opacity duration-300 ease-out"
-      style={{ 
-        opacity: navOpacity, 
-        backgroundColor: `rgba(17, 24, 39, ${navOpacity})` 
-      }} 
-    >
+  <nav
+    // CLAVE: Aseguramos la altura automática con md:h-auto
+    className="fixed bottom-0 left-0 right-0 z-50 p-3 shadow-2xl backdrop-blur-sm
+                 md:top-0 md:bottom-auto md:w-full md:h-auto md:flex md:justify-center md:items-center
+                 transition-opacity duration-300 ease-out"
+    style={{ 
+      opacity: navOpacity, 
+      backgroundColor: `rgba(17, 24, 39, ${navOpacity})` 
+    }} 
+  >
       <ul className="flex justify-around max-w-7xl w-full md:space-x-8 md:justify-center">
         {navLinks.map((link) => {
           const IconComponent = link.icon;
