@@ -1,0 +1,13 @@
+import { FaEnvelopeOpenText } from 'react-icons/fa'; 
+
+<h2
+          className="text-4xl font-extrabold mb-12 flex items-center gap-3 border-b-2 pb-2"
+          // Aplicamos el color de acento
+          style={{
+            borderColor: ACCENT_COLOR_HEX,
+            color: ACCENT_COLOR_HEX,
+          }}
+        >
+          <FaEnvelopeOpenText className="text-3xl" />
+          Solicitar Presupuesto
+        </h2>
