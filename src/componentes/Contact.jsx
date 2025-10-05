@@ -32,7 +32,7 @@ const Contact = () => {
         </h2>
 
         <form
-          action="https://formspree.io/f/manjrbjn"
+          action="https://formspree.io/f/myznppeb"
           method="POST"
           className="space-y-6"
         >
