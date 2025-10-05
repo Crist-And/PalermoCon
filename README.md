@@ -4,9 +4,6 @@
 Si deseas obtener una copia local de este proyecto para uso o referencia, puedes usar los siguientes enlaces  
 *(actualiza los placeholders con las URL reales de tu repositorio de GitHub o GitLab)*:
 
-- [⬇️ Descargar Repositorio Completo (ZIP)](#)
-- [📄 Ver Archivo README.md en Bruto](#)
-
 ---
 
 ## 💡 Introducción
@@ -46,6 +43,7 @@ npm run dev
 yarn dev
 ```
 ## Estructura
+```
 src/
 ├── components/
 │   ├── About.jsx           # Sección "Nosotros" y servicios
@@ -57,7 +55,7 @@ src/
 ├── styles/
 │   └── index.css           # Archivo de configuración de Tailwind
 └── App.jsx                 # Componente principal que ensambla todas las secciones
-
+```
 ## Configuracion del Formulario de contacto
 ✉️ Configuración del Formulario de Contacto
 
